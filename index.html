@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Gridwork Puzzles</title>
+<meta name="description" content="Sudoku, Queens, Wend, Zip, Tango, Lights Out and Nonogram with saved progress.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&family=JetBrains+Mono:wght@500;700&display=swap">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<header class="site-head">
+  <a class="brand" href="#games"><span class="brand-mark" aria-hidden="true"></span>Gridwork</a>
+  <nav class="site-nav" aria-label="Main">
+    <a href="#games" data-nav="games">Games</a>
+    <a href="#archive" data-nav="archive">Archive <span class="count" id="archive-count"></span></a>
+  </nav>
+</header>
+<main id="main" class="page"></main>
+<div id="modal-root"></div>
+<div id="toast" class="toast" role="status" aria-live="polite"></div>
+<noscript><p class="page">Gridwork needs JavaScript to run the puzzles.</p></noscript>
+<script src="js/core.js"></script>
+<script src="js/games/sudoku.js"></script>
+<script src="js/games/queens.js"></script>
+<script src="js/games/wend.js"></script>
+<script src="js/games/zip.js"></script>
+<script src="js/games/tango.js"></script>
+<script src="js/games/nonogram.js"></script>
+<script src="js/games/lightsout.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
